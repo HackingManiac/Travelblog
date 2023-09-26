@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    font-weight: bolder;
+}
+.card-body p:hover{
+    color:tomato;
+    font-weight: bolder;
+}
+
+.row1{
+display: flex;
+width: 100%;
+
+}
+.col img{
+    width: 430px;
+    height: 360px;
+    border: none;
+}
+.card:hover{
+    color:tomato;
+    font-weight: bolder;
+    border: none;
+}
+.col{
+border-top: none;
+}
+.card{
+    border: none;
+}
+.card ul li:hover{
+    color:tomato;
+    font-weight: bolder;
+}
+@media screen and (max-width:400px) {
+
+
+
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+
+    h1{
+        text-align: center;
+        font-weight: lighter;
+        font-size: 10px;
+    }
+
+
+
+
+    .card-body p:hover{
+        color:tomato;
+        font-weight: bolder;
+    }
+    
+    .row1{
+    
+    width: 400px;
+    
+    }
+    .col img{
+        width: 100px;
+        height: 160px;
+        border: none;
+    }
+    .card:hover{
+        color:tomato;
+        font-weight: bolder;
+        border: none;
+    }
+    .col{
+    border-top: none;
+    }
+    .card{
+        border: none;
+        width: 100px;
+    }
+    .card ul li:hover{
+        color:tomato;
+        font-weight: bolder;
+        width: 100px;
+    }
+#divf{
+    width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}

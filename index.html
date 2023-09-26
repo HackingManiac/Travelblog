@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adeventure Explorer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Travel Blog.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon"
+        href="https://img.freepik.com/premium-vector/adventure-hiking-logo-vector-vintage-with-sunset-logo-design-template_255467-456.jpg">
+        <link rel="stylesheet" href="./style.css">
+</head>
+
+<body style="font-family: 'Roboto', sans-serif;">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Navbar brand -->
+                <a class="navbar-brand mt-2 mt-lg-0" href="#">
+                    <img src="https://img.freepik.com/premium-vector/adventure-hiking-logo-vector-vintage-with-sunset-logo-design-template_255467-456.jpg"
+                        height="100px" alt="MDB Logo" loading="lazy" />
+                </a>
+                <!-- Left links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" /a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"></a>
+                    </li>
+
+                </ul>
+                <div class="dropdown">
+                    <button class="btn btn-light text-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        DESTINATION
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">AFRICA</a></li>
+                        <li><a class="dropdown-item" href="#">ASIA</a></li>
+                        <li><a class="dropdown-item" href="#">CARBBEAN</a></li>
+                        <li><a class="dropdown-item" href="#">EUROPE</a></li>
+                    </ul>
+                    <button class="btn btn-light text-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        TRAVEL TIPS
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                        <li><a class="dropdown-item" href="#">BEST TRAVEL TIPS</a></li>
+                        <li><a class="dropdown-item" href="#">GET CHEAP FLIGHTS</a></li>
+                        <li><a class="dropdown-item" href="#">BOOKING HOTELS</a></li>
+                        <li><a class="dropdown-item" href="#">TRAVEL SAFETY</a></li>
+                        <li><a class="dropdown-item" href="#">MY TRAVEL GEAR</a></li>
+                    </ul>
+                    <button class="btn btn-light text-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        PHOTOGRAPHY
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
+                        <li><a class="dropdown-item" href="#">TAKE BETTER PHOTOS</a></li>
+                        <li><a class="dropdown-item" href="#">BEST TRAVEL CAMERAS</a></li>
+                        <li><a class="dropdown-item" href="#">PHOTO TUTORIALS</a></li>
+
+                </div>
+                <!-- Left links -->
+            </div>
+            <!-- Collapsible wrapper -->
+
+            <!-- Right elements -->
+            <div class="d-flex align-items-center">
+                <!-- Icon -->
+                <a class="text-reset me-3" href="#">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+
+                <!-- Notifications -->
+                <div class="dropdown">
+                    <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink"
+                        role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-bell"></i>
+                        <span class="badge rounded-pill badge-notification bg-danger"></span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+                        <li>
+                            <a class="dropdown-item" href="#">Some news</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Another news</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Avatar -->
+                <div class="dropdown">
+                    <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#"
+                        id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                        <img src="https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmFuZG9tfGVufDB8fDB8fHww&w=1000&q=80"
+                            class="rounded-circle" height="25" alt="Black and White Portrait of a Man" loading="lazy" />
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
+                        <li>
+                            <a class="dropdown-item" href="#">My profile</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Settings</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Right elements -->
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+
+
+
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img style="height: 600px ;"
+                    src="https://www.hdwallpapers.in/download/upward_view_of_yellow_lighting_paris_eiffel_tower_with_black_sky_background_during_night_time_4k_hd_travel-HD.jpg"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>“The world is yours to explore.”</h1>
+                    
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img style="height: 600px ;" src="./wp10666465-the-statue-of-liberty-wallpapers.jpg"
+                    class="d-block w-100" alt="img2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>“Find a beautiful place and get lost.”</h1>
+                   
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img style="height: 600px ;" src="./wp5240579-travel-ultra-hd-wallpapers.jpg" class="d-block w-100"
+                    alt="img3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>“Finding paradise wherever I go.”</h1>
+                   
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <hr>
+
+
+
+    <h1 class="text-center fs-1 mt-5">Latest Blog Posts</h1>
+
+    <!-- card -->
+
+    <div class=" row mt-5 ms-">
+
+
+        <div class="col col-3  ">
+            <div class="card" style="width: 18rem;">
+                <img style="height: 200px;" src="https://i0.wp.com/landlopers.com/wp-content/uploads/2012/07/rsz_img_2827.jpg?fit=1024%2C768&ssl=1" class="card-img-top"
+                    alt="Sunset Over the Sea" />
+                <div class="card-body">
+                    <p class="card-text">Exploring Oceans</p>
+                </div>
+            </div>
+        </div>
+        <div class="col col-3 ">
+            <div class="card" style="width: 18rem;">
+                <img style="height: 200px;" src="https://randomtrip.net/wp-content/uploads/2023/06/Randomtrip-Central_Highlands-Vietnam-1.png" class="card-img-top"
+                    alt="Sunset Over the Sea" />
+                <div class="card-body">
+                    <p class="card-text">Travelling thorugh the finest place</p>
+                </div>
+            </div>
+        </div>
+        <div class="col col-3">
+            <div class="card" style="width: 18rem;">
+                <img style="height: 200px;" src="https://backpackertravel.org/wp-content/uploads/2020/09/Trail-running.jpg" class="card-img-top"
+                    alt="Sunset Over the Sea" />
+                <div class="card-body">
+                    <p class="card-text">Trekking</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col col-3  ">
+            <div class="card" style="width: 18rem;">
+                <img style="height: 200px;" src="https://mdbcdn.b-cdn.net/img/new/standard/nature/182.webp" class="card-img-top"
+                    alt="Sunset Over the Sea" />
+                <div class="card-body">
+                    <p class="card-text">Watch Sun set</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+
+<center>
+
+<a href="https://expertvagabond.com/travel-blog/" target="_blank"><button type="button" class="btn btn-secondary text-center mb-5  btn-lg mt-5">See more Blogs    <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></button></a>
+
+</center>
+
+
+
+<hr>
+
+
+<h1 class="mt-5">Reader Favorites</h1>
+<br>
+
+
+<div class="row1 ms-5 mt-5">
+
+<div class="col"><img src="./sak-yant-tattoos-thailand-900x600.jpg.webp" alt="">
+<h2 class="mt-4">The Magic Sak Yant Tattoo</h2>
+<p class="card">Traditional Sak Yant (also called Sak Yan, or Yantra) tattoos are hand-etched onto the skin using ancient geometric designs mixed with Buddhist prayers.
+
+    They are believed to give the wearer magic powers associated with healing, luck, strength, and protection against evil.</p></div>
+<div class="col"><img src="https://imgeng.jagran.com/images/2023/may/TravelTips1685180057599.jpg" alt="">
+
+<h2 class="mt-4 ms-5">Top 10 Travel Tips</h2>
+<p class="card"><ul>
+    <li>Prepare your travel documents</li>
+    <li>Research your destination</li>
+    <li>Address money matters</li>
+    <li>Compare transportation & accommodation options</li>
+    <li>Book everything in advance.</li>
+    <li>Avoid travel fatigue.</li>
+    <li>Prioritize your health & safety</li>
+    <li>Pack appropriately</li>
+    <li>Read upon Airport Travel Tips</li>
+    <li>Consider Connectivity</li>
+</ul></p>
+</div>
+<div class="col"><img src="https://media.timeout.com/images/103943438/image.jpg" alt="">
+<h2 class="mt-4 ms-5">Secret Places in Paris</h2>
+<p class="card">The oldest covered walkway in Paris makes for an amazing place to get some photos in. The glass roof provides amazing lighting and the hanging lanterns give a vintage feel that takes you back a hundred years. The Passage des Panoramas is full of eclectic boutiques and ethnic restaurants. It is one of my favorite Paris hidden gems: the perfect stop for a quick bite and coffee on a rainy day!</p></div>
+
+
+</div>
+
+
+
+<hr>
+
+    
+
+
+<h1 class="mt-5">Adventure Travel</h1>
+<br>
+
+
+<div class="row1 mb-5 ms-5 mt-5">
+
+<div class="col"><img src="https://images.moneycontrol.com/static-mcnews/2023/03/River-rafting-in-Rishikesh-770x433.jpg?impolicy=website&width=770&height=431" alt="">
+<h2 class="mt-4">Boating At Maldives</h2>
+<p class="card">
+
+    The Maldives include around 1190 islands, out of which only up to a hundred are resort islands, and all the rest are mysterious tropical lands, often totally uninhabited and waiting to be explored by boat. For an authentic experience take a traditional Maldivian Dhoni boat</p></div>
+<div class="col"><img src="https://cdn-news.adventuretravel.biz/2023/08/cjkg9oiuh4uinijc9isg_2023-01-15-10.01.58-large.jpg" alt="">
+
+<h2 class="mt-4 ms-5">Mount Abu </h2>
+<p class="card">Mount Abu is really a beautiful hill station to visit.One can use their own vehicle to reach there.It is hardly 28 KMs from Abu Road.You can enjoy Boating in the Nakhi Lake.The places to see in and around Mount Abu is Nakhi lake,Delwadana Dera,Sunset point,Gurushikhar,Dattatreya temple,Bhrahma Kumari centers and Museum,Adhar devi temple,Honeymoon point,Achal Gadh fort and many more </p>
+</div>
+<div class="col"><img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dHJhdmVsJTIwYWR2ZW50dXJlfGVufDB8fDB8fHww&w=1000&q=80" alt="">
+<h2 class="mt-4 ms-5">Trekking in Manali</h2>
+<p class="card">Manali is among the best known places in Himachal Pradesh, and draws tourists in large numbers throughout the year. Owing to the high altitude and mountainous terrain, trekking in Manali plays an important role in making it a famous tourist destination. The town acts as a base and commencement point of several famous hikes, which take tourists deep into the Himalayas. A good road connectivity to the entire country and proximity to domestic airports make it easily accessible for people.</p></div>
+
+
+</div>
+
+
+
+<hr>
+
+
+
+<h1 class="mt-5">Travel Photography</h1>
+<br>
+
+
+<div class="row1 ms-5 mb-5 mt-5">
+
+<div class="col"><img src="https://images.squarespace-cdn.com/content/v1/5a3bb03b4c326d76de73ddaa/1613140783562-ARLGSYE2Z1NTWD07GOHI/The+Common+Wanderer-9888.jpg" alt="">
+<h2 class="mt-4">20 Travel Photography Tips</h2>
+</div>
+<div class="col"><img src="https://bpsop.com/wp-content/uploads/2015/05/xiapu1.jpg" alt="">
+
+<h2 class="mt-4 ms-5">Best Travel Cameras</h2>
+
+</div>
+<div class="col"><img src="https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2010/05/travel-photography-01Part-II.jpg?w=600&h=1260&ssl=1" alt="">
+<h2 class="mt-4 ms-5">Shooting Northern Lights </h2>
+</div>
+
+</div>
+
+
+
+
+<hr>
+<div id="divf" class="card mt-5 ms-5 mb-3" style="width: 1500px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="https://images.squarespace-cdn.com/content/v1/5a3bb03b4c326d76de73ddaa/1613133428233-NEPK9JBTH4M4QSQ0VN9F/The+Common+Wanderer-5244.jpg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h2 class="card-title">Subscribe To Adventure Explorer</h2>
+         <input class="mt-4 ms-4" type="email" placeholder="Your email...">
+         <button type="button" class="btn btn-secondary btn-sm">Subscribe</button><br>
+         <input class="mt-3 ms-3" type="checkbox"> I consent to receiving emails and personalized ads.
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<hr>
+<footer class="text-center text-white" style="background-color: #caced1;">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Images -->
+      <section class="">
+        <div class="row">
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div
+              class="bg-image hover-overlay ripple shadow-1-strong rounded"
+              data-ripple-color="light"
+            >
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/fluid/city/113.webp"
+                class="w-100"
+              />
+              <a href="#!">
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.2);"
+                ></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div
+              class="bg-image hover-overlay ripple shadow-1-strong rounded"
+              data-ripple-color="light"
+            >
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/fluid/city/111.webp"
+                class="w-100"
+              />
+              <a href="#!">
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.2);"
+                ></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div
+              class="bg-image hover-overlay ripple shadow-1-strong rounded"
+              data-ripple-color="light"
+            >
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/fluid/city/112.webp"
+                class="w-100"
+              />
+              <a href="#!">
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.2);"
+                ></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div
+              class="bg-image hover-overlay ripple shadow-1-strong rounded"
+              data-ripple-color="light"
+            >
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/fluid/city/114.webp"
+                class="w-100"
+              />
+              <a href="#!">
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.2);"
+                ></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div
+              class="bg-image hover-overlay ripple shadow-1-strong rounded"
+              data-ripple-color="light"
+            >
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/fluid/city/115.webp"
+                class="w-100"
+              />
+              <a href="#!">
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.2);"
+                ></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div
+              class="bg-image hover-overlay ripple shadow-1-strong rounded"
+              data-ripple-color="light"
+            >
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/fluid/city/116.webp"
+                class="w-100"
+              />
+              <a href="#!">
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.2);"
+                ></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section: Images -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright:
+      <a class="text-white" href="https://AdventureExplorer.com/" target="_blank">AdventureExplorer.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+
+
+</body>
+
+</html>
